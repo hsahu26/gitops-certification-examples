@@ -2,7 +2,7 @@ apiVersion: bitnami.com/v1alpha1
 kind: SealedSecret
 metadata:
   creationTimestamp: null
-  name: mysql-creds
+  name: mysql-credentials
   namespace: default
 spec:
   encryptedData:
