@@ -37,7 +37,7 @@ spec:
       volumes:
       - name: mysql
         secret:
-          secretName: mysql-creds
+          secretName: mysql-credentials
       - name: paypal
         secret:
           secretName: paypal-cert         
